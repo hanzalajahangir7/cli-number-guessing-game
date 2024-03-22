@@ -2,6 +2,8 @@
 
 import inquirer from "inquirer";
 
+console.log("Welcome to Hanzala Jahangir CLI-Number-Guessing-Game")
+
 const answer = await inquirer.prompt([
   {
     name: "enter your number",
