@@ -12,10 +12,10 @@ const answer = await inquirer.prompt([
   },
 ]);
 
-const number = Math.floor(Math.random() *6 + 1);
+const number = Math.floor(Math.random() * 6 + 1);
 console.log(number)
 
-if (number === answer) {
+if (answer === number) {
   console.log("good you are correct");
 } else {
   console.log("sorry try again");
